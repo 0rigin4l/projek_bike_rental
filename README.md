@@ -14,7 +14,7 @@ or
 
 
 ```bash
-pip install numpy pandas scipy matplotlib seaborn streamlit babel
+pip install numpy pandas scipy matplotlib seaborn streamlit 
 ```
 
 ## Run Streamlit App  
