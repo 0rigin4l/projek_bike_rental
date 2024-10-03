@@ -38,7 +38,7 @@ def create_weather_df(df):
 
 # jadi, setelah menyiapkan beberapa helper function tersebut
 # tahap berikutnya load berkas
-all_df = pd.read_csv("data_jam.csv")
+all_df = pd.read_csv("dashboard/data_jam.csv")
 
 # membuat komponen date
 min_date = pd.to_datetime(all_df["dteday"]).dt.date.min()
